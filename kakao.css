@@ -1,0 +1,83 @@
+* {
+  font-family: EliceDigitalBaeum_Regular;
+/*Cafe24Ssurround   EliceDigitalBaeum_Regular*/
+}
+.container {
+  width: 480px;
+  height: 800px;
+  margin: auto;
+  /*background: repeating-linear-gradient(pink, pink 49.9%, white 50.1%, white 100%);*/
+  background: linear-gradient(180deg, #FFA07A 60%, white 40%);
+  border: 1px solid gray;
+
+}
+
+.imgdiv {
+  width: 480px;
+  height: 1020px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 23px;
+}
+
+.imgdiv > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%
+}
+
+.profile {
+  width: 480px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile > div {
+  text-align: center;
+}
+
+.profile > div > p {
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 19px;
+}
+
+.flexendicons {
+  width: 480px;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.icons {
+  margin-bottom: 50px;
+}
+
+.icons > img {
+  width: 60px;
+  height: 60px;
+  margin: 19px;
+}
+
+.spans {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.spans > span {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 13px;
+}
+
+
+/* space-evenly or space-between*/
+  /*center , space-around*/
