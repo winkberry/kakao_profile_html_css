@@ -1,0 +1,201 @@
+
+#main-container {
+  text-align: center;
+  width: 100vmin;
+  height: 215vmin;
+  background-color: rgb(255, 255, 255, 1);
+  position: relative;
+  border-style: solid;
+  border-color: rgb(187, 187, 187);
+  border-width: 1px;
+  margin: 0 auto;
+}
+
+#header{
+  width: 100vmin;
+  height: 12vmin;
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+#header > img {
+  /*헤더 카메라 로고*/
+  margin-left: 3vmin;
+  width: 6vmin;
+  height: 6vmin;
+}
+
+#header > img + img {
+  /*헤더 인스타그램 로고*/
+  width: 27vmin;
+  height: 10vmin;
+}
+
+#header > img + img + img {
+  /*헤더 비행기 로고*/
+  margin-right: 3vmin;
+  width: 6vmin;
+  height: 6vmin;
+}
+
+.top_imgs {
+  width: 100vmin;
+  height: 25vmin;
+  background-color: #f0f0f5;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1mm solid lightgray;
+  border-bottom: 1mm solid lightgray;
+}
+
+.top_img {
+  width: 30vmin;
+  height: 20vmin;
+}
+
+.top_img > img {
+  border-radius: 50%;
+  width: 15vmin;
+  height: 15vmin;
+}
+
+.top_img > p {
+  font-size: 1.9em;
+  margin: 2vmin 0vmin;
+}
+
+.id_line {
+  display: flex;
+  width: 100vmin;
+  height: 11vmin;
+  align-items: center;
+}
+
+.two_box, #more_img {
+  flex: none;
+}
+
+#more_img {
+  margin-left: auto;
+  width: 5vmin;
+  height: 1.2vmin;
+  margin-right: 5vmin;
+}
+
+.two_box {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3vmin;
+  align-items: center;
+}
+
+.two_box > img {
+  border-radius: 50%;
+  width: 8vmin;
+  height: 8vmin;
+}
+
+.two_box > p {
+  margin-left: 2vmin;
+  font-size : 2.4em;
+}
+
+#main_img_box {
+  width: 100vmin;
+  height: 100vmin;
+  overflow: hidden;
+  margin:0 auto;
+}
+
+#main_img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#like_list {
+  display: flex;
+  width: 100vmin;
+  height: 11vmin;
+  align-items: center;
+}
+
+.three {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3vmin;
+  align-items: center;
+}
+
+.one {
+  margin-left: auto;
+  margin-right: 3vmin;
+}
+
+.three > img {
+  margin-right: 3vw;
+  width: 6.5vw;
+  height: 4vh;
+}
+
+.one > img {
+  width: 5.7vw;
+  height: 4vh;
+}
+
+#comment {
+  text-align: start;
+  margin-left: 3vmin;
+}
+
+#horizen_align > img {
+  border-radius: 50%;
+  width: 7vmin;
+  height: 7vmin;
+}
+
+#horizen_align {
+  display: flex;
+  height: 7vh;
+  flex-direction: row;
+  align-items: center;
+}
+
+#horizen_align > p {
+  margin-left: 2vw;
+  font-size: 2.7em;
+}
+
+#comment > p {
+  font-size: 2.5em;
+  margin: 0.01vh 0vh;
+}
+
+#comment > p + p {
+  margin-top: 5vh;
+  font-size: 1.7em;
+  color: gray;
+  margin-bottom: 1.2vh;
+}
+
+#footer {
+  width: 100vmin;
+  height: 14vmin;
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1mm solid lightgray;
+  border-bottom: 1mm solid lightgray;
+}
+
+#footer > img {
+  width: 6vmin;
+  height: 6vmin;
+}
